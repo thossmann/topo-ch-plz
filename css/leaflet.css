@@ -1,11 +1,13 @@
-/* required styles */
-
 /* fixes issue with positioning in Zeppelin*/
 .paragraph div.leaflet-overlay-pane svg {
     width:auto;
 }
+.leaflet-overlay-pane {
+    position:relative;
+}
 
-/*.leaflet-pane, */
+/* required styles */
+.leaflet-pane,
 .leaflet-tile,
 .leaflet-marker-icon,
 .leaflet-marker-shadow,
